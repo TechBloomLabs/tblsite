@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block content %}
+    <div class="content">
+        {% placeholder about %}
+    </div>
+    <div class="sidebar">
+        {% placeholder latest_blog_posts %}
+    </div>
+{% endblock %}
